@@ -1,43 +1,37 @@
-import Link from "next/link"
-
-export default function Home() {
+export default function Page() {
   return (
-    <div className="min-h-screen bg-gray-900 text-white flex flex-col items-center justify-center p-8">
-      <div className="max-w-2xl text-center">
-        <h1 className="text-4xl font-bold mb-4">8 Thập Kỷ Khẳng Định Vị Thế Quốc Gia</h1>
-        <p className="text-gray-400 mb-8">
-          Trang web longform với hiệu ứng Parallax Scrolling - Phiên bản HTML/CSS/JS thuần
-        </p>
-        
-        <div className="bg-gray-800 rounded-xl p-6 mb-8">
-          <h2 className="text-xl font-semibold mb-4 text-amber-400">Các file đã tạo:</h2>
-          <ul className="text-left space-y-2 text-gray-300">
-            <li className="flex items-center gap-2">
-              <span className="text-green-400">✓</span>
-              <code className="bg-gray-700 px-2 py-1 rounded text-sm">/public/vnexpress-style/index.html</code>
-            </li>
-            <li className="flex items-center gap-2">
-              <span className="text-green-400">✓</span>
-              <code className="bg-gray-700 px-2 py-1 rounded text-sm">/public/vnexpress-style/styles.css</code>
-            </li>
-            <li className="flex items-center gap-2">
-              <span className="text-green-400">✓</span>
-              <code className="bg-gray-700 px-2 py-1 rounded text-sm">/public/vnexpress-style/script.js</code>
-            </li>
-          </ul>
-        </div>
-
-        <Link 
-          href="/vnexpress-style/index.html"
-          className="inline-block bg-red-600 hover:bg-red-700 text-white font-semibold px-8 py-4 rounded-lg transition-colors text-lg"
+    <main className="flex min-h-screen items-center justify-center bg-black px-6 text-neutral-400">
+      <div className="flex w-full max-w-md flex-col items-start gap-8">
+        <svg
+          fill="currentColor"
+          viewBox="0 0 147 70"
+          xmlns="http://www.w3.org/2000/svg"
+          aria-hidden="true"
+          className="size-10 text-white"
         >
-          Xem trang web với hiệu ứng Parallax
-        </Link>
+          <path d="M56 50.2031V14H70V60.1562C70 65.5928 65.5928 70 60.1562 70C57.5605 70 54.9982 68.9992 53.1562 67.1573L0 14H19.7969L56 50.2031Z" />
+          <path d="M147 56H133V23.9531L100.953 56H133V70H96.6875C85.8144 70 77 61.1856 77 50.3125V14H91V46.1562L123.156 14H91V0H127.312C138.186 0 147 8.81439 147 19.6875V56Z" />
+        </svg>
 
-        <div className="mt-8 text-sm text-gray-500">
-          <p>Hoặc mở trực tiếp file <code>index.html</code> trong trình duyệt khi sử dụng VS Code</p>
+        <div className="space-y-3">
+          <h1 className="text-balance text-2xl font-semibold tracking-tight text-white">
+            To get started, describe what you want to build.
+          </h1>
+          <p className="text-pretty text-sm leading-relaxed text-neutral-500">
+            This is the default page for a fresh v0 project. Open the prompt and
+            tell v0 what to create, or browse the{' '}
+            <a
+              href="https://v0.app/templates"
+              target="_blank"
+              rel="noreferrer"
+              className="text-neutral-300 underline underline-offset-4 hover:text-white"
+            >
+              Community
+            </a>{' '}
+            for inspiration.
+          </p>
         </div>
       </div>
-    </div>
+    </main>
   )
 }
