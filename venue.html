@@ -3,23 +3,23 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Venue & Travel - HEALTHINFO IV 2026</title>
+  <title>Venue &amp; Travel - HEALTHINFO IV 2026</title>
   <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="icon" type="image/png" href="public/img/favicon.png">
 </head>
 <body>
-<!-- Header -->
+
+  <!-- Header -->
   <header class="site-header" id="site-header">
     <div class="container header-wrapper">
       <a href="index.html" class="logo">
         <img src="public/img/logo-healthinfo.png" alt="HEALTHINFO IV Logo">
-        
       </a>
-
       <nav class="main-nav" id="main-nav">
         <ul>
-          <li><a href="index.html" class="nav-active">Home</a></li>
+          <li><a href="index.html">Home</a></li>
           <li class="has-dropdown">
-            <a href="#" class="dropdown-toggle">Conference <span class="arrow">▾</span></a>
+            <a href="#" class="dropdown-toggle">Conference <span class="arrow">&#9662;</span></a>
             <ul class="dropdown">
               <li><a href="about.html">About</a></li>
               <li><a href="committees.html">Committees</a></li>
@@ -27,7 +27,7 @@
             </ul>
           </li>
           <li class="has-dropdown">
-            <a href="#" class="dropdown-toggle">Authors <span class="arrow">▾</span></a>
+            <a href="#" class="dropdown-toggle">Authors <span class="arrow">&#9662;</span></a>
             <ul class="dropdown">
               <li><a href="call-for-papers.html">Call for Papers</a></li>
               <li><a href="important-dates.html">Important Dates</a></li>
@@ -35,11 +35,10 @@
           </li>
           <li><a href="program.html">Program</a></li>
           <li><a href="registration.html">Registration</a></li>
-          <li><a href="venue.html">Venue</a></li>
+          <li><a href="venue.html" class="nav-active">Venue</a></li>
           <li><a href="contact.html">Contact</a></li>
         </ul>
       </nav>
-
       <div class="header-right">
         <a href="call-for-papers.html" class="btn nav-cta-btn">Submit Paper</a>
         <button class="menu-toggle" id="menu-toggle" aria-label="Toggle menu">
@@ -49,190 +48,203 @@
     </div>
   </header>
 
-
-  <!-- Page Title -->
-  <section class="hero" style="min-height: 300px; background: linear-gradient(135deg, #005b96 0%, #00a896 100%);">
+  <!-- Hero -->
+  <section class="hero" style="min-height:300px; background:linear-gradient(135deg,#005b96 0%,#00a896 100%);">
     <div class="container hero-content">
-      <h1>Venue & Travel</h1>
-      <p>Information about the conference venue and travel options</p>
+      <h1>Venue &amp; Travel</h1>
+      <p class="page-hero-sub">Information about the conference venue, transportation, and accommodation</p>
     </div>
   </section>
 
-  <!-- Venue Information -->
+  <!-- Conference Venue -->
   <section class="section">
     <div class="container">
       <div class="section-title">
+        <span class="section-eyebrow">Conference Location</span>
         <h2>Conference Venue</h2>
       </div>
 
       <div class="two-columns">
+        <!-- Left: info -->
         <div>
-          <h3>📍 University of Information Technology</h3>
-          <p><strong>Address:</strong></p>
-          <p>University of Information Technology<br>Vietnam National University - Ho Chi Minh City<br>Block A, 700A Nguyen Van Cu Street<br>District 5, Ho Chi Minh City, Vietnam</p>
+          <h3 style="color:var(--primary-color); margin-bottom:16px;">University of Information Technology (UIT)</h3>
+          <p>The 4th International Health Informatics Conference (HEALTHINFO IV) will be held at the University of Information Technology (UIT), a member university of Vietnam National University Ho Chi Minh City (VNU-HCM).</p>
+          <p>UIT is one of Vietnam's leading universities in information technology, providing modern conference facilities, advanced teaching and research infrastructure, and a dynamic academic environment for international collaboration.</p>
 
-          <p style="margin-top: 24px;"><strong>Contact:</strong></p>
-          <p>Phone: +84 (28) 3725-2656<br>Email: info@healthinfo-iv.com</p>
+          <div class="about-card" style="margin-top:24px; margin-bottom:24px;">
+            <h3>Venue Address</h3>
+            <ul class="overview-list">
+              <li>University of Information Technology (UIT)</li>
+              <li>Vietnam National University Ho Chi Minh City (VNU-HCM)</li>
+              <li>Quarter 34, Linh Xuan Ward</li>
+              <li>Ho Chi Minh City, Vietnam</li>
+            </ul>
+          </div>
 
-          <p style="margin-top: 24px;"><strong>Facilities:</strong></p>
-          <ul style="list-style: none; color: var(--text-light);">
-            <li>✓ Modern conference halls with AV equipment</li>
-            <li>✓ High-speed WiFi throughout the venue</li>
-            <li>✓ Accessible facilities and parking</li>
-            <li>✓ On-campus cafeteria and dining options</li>
-            <li>✓ Registration desk and information center</li>
+          <h3 style="color:var(--primary-color); font-size:1rem; margin-bottom:14px;">Facilities</h3>
+          <ul class="overview-list">
+            <li>Modern conference halls equipped with audiovisual systems</li>
+            <li>High-speed Wi-Fi throughout the venue</li>
+            <li>Accessible facilities and parking areas</li>
+            <li>On-campus dining and cafeteria services</li>
+            <li>Registration and information support desks</li>
           </ul>
         </div>
 
+        <!-- Right: getting there -->
         <div class="about-card">
-          <h3>🗺️ Getting There</h3>
-          <p><strong>From Tan Son Nhat International Airport:</strong></p>
+          <h3>Getting to the Venue</h3>
+          <p style="font-size:0.9rem; color:var(--text-light); margin-bottom:16px;">From Tan Son Nhat International Airport (SGN)</p>
+
           <ul class="overview-list">
-            <li><strong>Distance:</strong> 8 km</li>
-            <li><strong>Travel time:</strong> 15-30 minutes (depending on traffic)</li>
-            <li><strong>Options:</strong> Taxi, Grab, Airport bus</li>
+            <li><strong>Distance:</strong> approximately 22 km</li>
+            <li><strong>Estimated travel time:</strong> 30&ndash;45 minutes (depending on traffic)</li>
           </ul>
 
-          <p style="margin-top: 16px;"><strong>By Taxi/Grab:</strong></p>
+          <p style="margin-top:20px; margin-bottom:8px; font-weight:600; color:var(--dark-color);">Travel options</p>
           <ul class="overview-list">
-            <li>Estimated cost: 250,000 - 400,000 VND</li>
-            <li>Download Grab app for convenient booking</li>
+            <li>Taxi services</li>
+            <li>Ride-hailing applications (Grab, Green SM, Be)</li>
+            <li>Public buses</li>
+            <li>Metro and connecting transportation</li>
           </ul>
 
-          <p style="margin-top: 16px;"><strong>By Public Transport:</strong></p>
-          <ul class="overview-list">
-            <li>Bus Route 152, 49, or 64 to the University</li>
-            <li>Estimated cost: 10,000 VND</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Accommodation -->
-  <section class="section" style="background: var(--light-color);">
-    <div class="container">
-      <div class="section-title">
-        <h2>Accommodation</h2>
-        <p>Recommended hotels near the conference venue</p>
-      </div>
-
-      <div class="topics-grid">
-        <div class="topic-card">
-          <h3>⭐⭐⭐⭐ Luxury</h3>
-          <ul class="overview-list">
-            <li><strong>Intercontinental Saigon</strong> - 3km away</li>
-            <li><strong>Sofitel Legend Metropole</strong> - 2km away</li>
-            <li><strong>Park Hyatt Saigon</strong> - 1.5km away</li>
-            <li>Rate: $150-300/night</li>
-          </ul>
-        </div>
-
-        <div class="topic-card">
-          <h3>⭐⭐⭐ Standard</h3>
-          <ul class="overview-list">
-            <li><strong>Liberty Central Saigon</strong> - 0.5km away</li>
-            <li><strong>Majestic Saigon Hotel</strong> - 1km away</li>
-            <li><strong>New World Saigon</strong> - 1.5km away</li>
-            <li>Rate: $80-150/night</li>
-          </ul>
-        </div>
-
-        <div class="topic-card">
-          <h3>⭐⭐ Budget</h3>
-          <ul class="overview-list">
-            <li><strong>Saigon Hotel</strong> - 0.8km away</li>
-            <li><strong>Hotel Continental</strong> - 1.2km away</li>
-            <li><strong>Cong Doan Hotel</strong> - 0.3km away</li>
-            <li>Rate: $40-80/night</li>
-          </ul>
-        </div>
-      </div>
-
-      <div style="max-width: 900px; margin: 40px auto 0; text-align: center;">
-        <div class="about-card" style="background: #fff3cd; border-color: #ffc107;">
-          <h3 style="color: #856404;">💳 Special Conference Rates</h3>
-          <p style="color: #856404;">Special discounted rates are available for conference participants. When booking, mention "HEALTHINFO IV" to receive 20-30% discount at participating hotels.</p>
+          <div style="margin-top:20px; padding:14px 16px; background:linear-gradient(135deg,#e8f4fd,#e0f7f4); border-radius:10px; border-left:3px solid var(--secondary-color);">
+            <p style="margin:0; font-size:0.88rem; color:var(--dark-color);"><strong>Estimated airport transfer:</strong><br>200,000 &ndash; 350,000 VND by taxi or ride-hailing</p>
+          </div>
         </div>
       </div>
     </div>
   </section>
 
   <!-- Local Transportation -->
-  <section class="section">
+  <section class="section" style="background:var(--light-color);">
     <div class="container">
       <div class="section-title">
         <h2>Local Transportation</h2>
+        <p>Transportation options available in Ho Chi Minh City</p>
       </div>
 
       <div class="topics-grid">
         <div class="topic-card">
-          <h3>🚕 Taxi & Ride-sharing</h3>
-          <p><strong>Grab App:</strong> Popular in Ho Chi Minh City, download the app for convenient booking.</p>
-          <p><strong>Vinasun Taxi:</strong> Traditional taxi service, reliable for long distances.</p>
-          <p><strong>Average cost:</strong> 15,000-30,000 VND per trip</p>
+          <div class="topic-icon-wrap">
+            <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="3" width="15" height="13" rx="2"/><path d="M16 8h4l3 5v3h-7V8z"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg>
+          </div>
+          <h3>Taxi &amp; Ride-Hailing</h3>
+          <p>Widely available throughout the city. Recommended services include Grab, Green SM, Be, Vinasun Taxi, and Mai Linh Taxi.</p>
+          <p><strong>Estimated airport transfer cost:</strong> 200,000&ndash;350,000 VND</p>
         </div>
 
         <div class="topic-card">
-          <h3>🚌 Public Bus</h3>
-          <p><strong>Bus Routes:</strong> Route 152, 49, 64, and 21 connect to the university area.</p>
-          <p><strong>Bus Cards:</strong> Purchase a rechargeable card at bus stations.</p>
-          <p><strong>Cost:</strong> 10,000 VND per trip</p>
+          <div class="topic-icon-wrap">
+            <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="7" width="20" height="13" rx="2"/><path d="M16 7V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2"/><line x1="12" y1="12" x2="12" y2="16"/><line x1="10" y1="14" x2="14" y2="14"/></svg>
+          </div>
+          <h3>Metro</h3>
+          <p>Ho Chi Minh City Metro Line 1 (Ben Thanh &ndash; Suoi Tien) provides access between the city center and eastern districts. Connect to the venue via taxi or bus.</p>
+          <p>Check the latest metro schedules before traveling.</p>
         </div>
 
         <div class="topic-card">
-          <h3>🚲 Bicycle & Motorbike</h3>
-          <p><strong>Bike Rental:</strong> Available at hotels and rental shops.</p>
-          <p><strong>Motorbike Rental:</strong> Popular in Vietnam, helmet required.</p>
-          <p><strong>Cost:</strong> 50,000-200,000 VND per day</p>
-        </div>
-
-        <div class="topic-card">
-          <h3>🚇 Metro (Coming Soon)</h3>
-          <p>Ho Chi Minh City Metro Line 1 will connect the central area with District 5 in the future.</p>
-          <p>Currently under construction, expected completion: 2027</p>
-        </div>
-
-        <div class="topic-card">
-          <h3>🛴 Electric Scooters</h3>
-          <p><strong>Grab Bike:</strong> E-scooter and motorbike taxi services available via Grab app.</p>
-          <p><strong>Cost:</strong> 20,000-50,000 VND per trip</p>
-        </div>
-
-        <div class="topic-card">
-          <h3>🏨 Airport Transfers</h3>
-          <p>Conference organizers can arrange airport pickup. Contact info@healthinfo-iv.com to book.</p>
-          <p><strong>Cost:</strong> $30-50 one-way</p>
+          <div class="topic-icon-wrap">
+            <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+          </div>
+          <h3>Public Bus</h3>
+          <p>A number of public bus routes connect the city center, Thu Duc area, and the Vietnam National University campus.</p>
+          <p><strong>Estimated fare:</strong> 7,000&ndash;14,000 VND per trip</p>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Visa Information -->
-  <section class="section" style="background: var(--light-color);">
+  <!-- Accommodation -->
+  <section class="section">
     <div class="container">
       <div class="section-title">
-        <h2>Visa Information for International Participants</h2>
+        <h2>Accommodation</h2>
+        <p>Recommended options near the conference venue</p>
       </div>
 
-      <div style="max-width: 900px; margin: 0 auto;">
+      <div style="max-width:860px; margin:0 auto; display:grid; grid-template-columns:1fr 1fr; gap:24px;">
         <div class="about-card">
-          <h3>📋 Visa Requirements</h3>
-          <p>Citizens of many countries require a visa to enter Vietnam. Check the <a href="#" style="color: var(--secondary-color); font-weight: bold;">Vietnamese Immigration website</a> for specific requirements based on your nationality.</p>
-
-          <p style="margin-top: 16px;"><strong>Visa Types:</strong></p>
+          <h3>Bcons City Hotel</h3>
+          <p style="color:var(--secondary-color); font-size:0.85rem; font-weight:600; margin-bottom:12px;">Approximately 3.5 km from the venue</p>
           <ul class="overview-list">
-            <li><strong>Tourist Visa (90 days):</strong> Most common for conference participants</li>
-            <li><strong>Business Visa (1 year):</strong> For frequent travelers</li>
-            <li><strong>E-visa:</strong> Available for many nationalities, can be applied online</li>
+            <li><strong>Estimated rate:</strong> from 600,000 VND per night</li>
           </ul>
         </div>
 
-        <div class="about-card" style="margin-top: 24px;">
-          <h3>📜 Invitation Letter</h3>
-          <p>We can provide an official invitation letter from the conference organizers to support your visa application. Please contact us at:</p>
-          <p style="margin-top: 12px;"><strong>Email:</strong> <a href="mailto:visa@healthinfo-iv.com">visa@healthinfo-iv.com</a></p>
-          <p><strong>Include:</strong> Your full name, passport number, and intended travel dates</p>
+        <div class="about-card">
+          <h3>VNU-HCMC Guest House</h3>
+          <p style="color:var(--secondary-color); font-size:0.85rem; font-weight:600; margin-bottom:12px;">Approximately 2 km from the venue &mdash; within VNU-HCM area</p>
+          <ul class="overview-list">
+            <li><strong>Estimated rate:</strong> from 300,000 VND per night</li>
+          </ul>
+        </div>
+      </div>
+
+      <p style="text-align:center; margin-top:24px; color:var(--text-light); font-size:0.9rem;">Participants are encouraged to make accommodation arrangements early. Additional recommendations may be announced closer to the conference date.</p>
+    </div>
+  </section>
+
+  <!-- Visa Information -->
+  <section class="section" style="background:var(--light-color);">
+    <div class="container">
+      <div class="section-title">
+        <h2>Visa Information</h2>
+      </div>
+
+      <div style="max-width:860px; margin:0 auto;">
+        <div class="about-card" style="margin-bottom:24px;">
+          <h3>Entry Requirements</h3>
+          <p>International participants may require a visa to enter Vietnam. Please consult the official Vietnam Immigration Portal and your nearest Vietnamese Embassy or Consulate for the most up-to-date visa requirements and application procedures based on your nationality.</p>
+        </div>
+
+        <div class="about-card">
+          <h3>Invitation Letter</h3>
+          <p>Official invitation letters can be provided upon request after registration and acceptance confirmation to support visa applications.</p>
+          <p style="margin-top:12px;">Please contact: <a href="mailto:info@healthinfo-iv.com" style="color:var(--secondary-color); font-weight:600;">info@healthinfo-iv.com</a></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Weather -->
+  <section class="section">
+    <div class="container">
+      <div style="max-width:860px; margin:0 auto;">
+        <div class="two-columns">
+          <div class="about-card">
+            <h3>Weather in October</h3>
+            <p>October in Ho Chi Minh City is generally warm and humid, with average temperatures ranging from <strong>24&deg;C to 31&deg;C</strong>.</p>
+            <p>Light clothing is recommended. Participants may also wish to carry an umbrella or light rain jacket, as occasional rainfall is possible during this period.</p>
+          </div>
+
+          <div class="about-card">
+            <h3>Explore Ho Chi Minh City</h3>
+            <p>Ho Chi Minh City is Vietnam's largest economic and cultural center, offering a unique blend of history, innovation, cuisine, and modern urban life.</p>
+            <ul class="overview-list">
+              <li>Ben Thanh Market</li>
+              <li>Notre-Dame Cathedral of Saigon</li>
+              <li>Independence Palace</li>
+              <li>Landmark 81</li>
+              <li>Nguyen Hue Walking Street</li>
+              <li>Suoi Tien Theme Park</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="section cta-section">
+    <div class="container">
+      <div class="cta-content">
+        <h2>We Welcome All Participants</h2>
+        <p>We warmly welcome all participants to HEALTHINFO IV and hope you enjoy both the conference and your stay in Ho Chi Minh City.</p>
+        <div class="hero-actions">
+          <a href="registration.html" class="btn primary-btn">Register Now</a>
+          <a href="contact.html" class="btn secondary-btn">Contact Us</a>
         </div>
       </div>
     </div>
@@ -246,7 +258,6 @@
           <h4>HEALTHINFO IV</h4>
           <p>4th International Health Informatics Conference</p>
         </div>
-
         <div class="footer-col">
           <h4>Quick Links</h4>
           <ul>
@@ -256,17 +267,15 @@
             <li><a href="contact.html">Contact</a></li>
           </ul>
         </div>
-
         <div class="footer-col">
           <h4>Conference Info</h4>
           <ul>
             <li><a href="important-dates.html">Important Dates</a></li>
             <li><a href="registration.html">Registration</a></li>
-            <li><a href="venue.html">Venue & Travel</a></li>
+            <li><a href="venue.html">Venue &amp; Travel</a></li>
             <li><a href="committees.html">Committees</a></li>
           </ul>
         </div>
-
         <div class="footer-col">
           <h4>Contact Us</h4>
           <p>Email: info@healthinfo-iv.com</p>
@@ -274,7 +283,6 @@
           <p>University of Information Technology, VNU-HCM</p>
         </div>
       </div>
-
       <div class="footer-bottom">
         <p>&copy; 2026 HEALTHINFO IV. All rights reserved.</p>
       </div>

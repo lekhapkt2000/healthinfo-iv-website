@@ -5,22 +5,21 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>About HEALTHINFO IV - International Health Informatics Conference</title>
   <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="icon" type="image/png" href="public/img/favicon.png">
 </head>
 <body>
 
-<!-- Header -->
+  <!-- Header -->
   <header class="site-header" id="site-header">
     <div class="container header-wrapper">
       <a href="index.html" class="logo">
         <img src="public/img/logo-healthinfo.png" alt="HEALTHINFO IV Logo">
-        
       </a>
-
       <nav class="main-nav" id="main-nav">
         <ul>
-          <li><a href="index.html" class="nav-active">Home</a></li>
+          <li><a href="index.html">Home</a></li>
           <li class="has-dropdown">
-            <a href="#" class="dropdown-toggle">Conference <span class="arrow">▾</span></a>
+            <a href="#" class="dropdown-toggle nav-active">Conference <span class="arrow">▾</span></a>
             <ul class="dropdown">
               <li><a href="about.html">About</a></li>
               <li><a href="committees.html">Committees</a></li>
@@ -40,7 +39,6 @@
           <li><a href="contact.html">Contact</a></li>
         </ul>
       </nav>
-
       <div class="header-right">
         <a href="call-for-papers.html" class="btn nav-cta-btn">Submit Paper</a>
         <button class="menu-toggle" id="menu-toggle" aria-label="Toggle menu">
@@ -50,173 +48,240 @@
     </div>
   </header>
 
-  <!-- Page Title -->
-  <section class="hero" style="min-height: 300px; background: linear-gradient(135deg, #005b96 0%, #00a896 100%);">
+  <!-- Page Hero -->
+  <section class="hero" style="min-height:280px; background:linear-gradient(135deg,#005b96 0%,#00a896 100%);">
     <div class="container hero-content">
       <h1>About HEALTHINFO IV</h1>
-      <p>Learn more about the conference, its history, and organizers</p>
+      <p class="page-hero-sub">Learn more about the conference, its history, and organizers</p>
     </div>
   </section>
 
-  <!-- About Content -->
+  <!-- ── Main: intro + glance card ── -->
   <section class="section">
     <div class="container">
-      <div class="two-columns">
+      <div class="ab-grid">
+
+        <!-- Left -->
         <div>
-          <h2>What is HEALTHINFO?</h2>
-          <p>The International Health Informatics Conference (HEALTHINFO) is an international academic forum initiated by the Vietnam Health Economics Association (VHEA) and organized in collaboration with universities, hospitals, healthcare institutions, and international partners. Since its inception, HEALTHINFO has served as a platform for researchers, healthcare professionals, policymakers, and industry leaders to exchange knowledge, share innovations, and foster collaboration in health informatics and digital healthcare.</p>
-        <p>The HEALTHINFO conference series began in 2019 with the theme “Smart Hospital”, focusing on the foundations of healthcare digital transformation, particularly the development and implementation of Electronic Health Records (EHRs) as a cornerstone of modern healthcare systems. In 2022, the second conference explored “Family Doctor Network”, highlighting the role of primary healthcare and family medicine within an increasingly digital healthcare ecosystem. The third edition, held in 2023 under the theme “Smart Healthcare in the Digitalization Age,” emphasized emerging applications of information technology and artificial intelligence in healthcare during the early stages of AI adoption.</p>
-        <p>Since then, artificial intelligence has rapidly evolved and become a transformative force across the healthcare sector. In response to these developments, the 4th International Health Informatics Conference (HEALTHINFO IV) adopts the theme “AI for Healthcare”, reflecting the growing impact of AI on healthcare delivery, clinical decision-making, health management, education, and patient engagement.</p>
-        <p>HEALTHINFO IV is jointly organized by the Vietnam Health Economics Association (VHEA), the University of Information Technology (UIT), Vietnam National University Ho Chi Minh City (VNU-HCM), the University of Health Sciences (UHS), VNU-HCM, and distinguished national and international partners. The conference aims to bring together researchers, clinicians, healthcare administrators, policymakers, and industry innovators to discuss the latest advances, research findings, and practical applications of artificial intelligence in healthcare.</p>
-        <p>By fostering interdisciplinary collaboration and knowledge exchange, HEALTHINFO IV seeks to strengthen research networks, promote innovation, and contribute to the development of more intelligent, accessible, and sustainable healthcare systems for communities in Vietnam and around the world.</p>
+          <span class="ab-eyebrow">About the Conference</span>
+          <h2 class="ab-title">What is HEALTHINFO?</h2>
+          <div class="ab-body">
+            <p>The International Health Informatics Conference (HEALTHINFO) is an international academic forum initiated by the Vietnam Health Economics Association (VHEA) and organized in collaboration with universities, hospitals, healthcare institutions, and international partners. Since its inception, HEALTHINFO has served as a platform for researchers, healthcare professionals, policymakers, and industry leaders to exchange knowledge and foster collaboration in health informatics and digital healthcare.</p>
+            <p>The conference series began in 2019 with the theme <em>"Smart Hospital"</em>, focusing on the foundations of healthcare digital transformation. In 2022, the second edition explored <em>"Family Doctor Network"</em>, highlighting primary healthcare in the digital ecosystem. The third edition in 2023, <em>"Smart Healthcare in the Digitalization Age"</em>, emphasized emerging AI applications in healthcare.</p>
+            <p>The 4th edition, <strong>HEALTHINFO IV</strong>, adopts the theme <strong>"AI for Healthcare"</strong> — reflecting the growing impact of AI on clinical decision-making, health management, education, and patient engagement. It is jointly organized by VHEA, the University of Information Technology (UIT)&ndash;VNU-HCM, the University of Health Sciences (UHS)&ndash;VNU-HCM, and distinguished national and international partners.</p>
+          </div>
 
-          <h3 style="margin-top: 32px;">Conference History</h3>
-          <ul class="overview-list">
-            <li><strong>HEALTHINFO 2019</strong> - 1st edition, launched in Vietnam</li>
-            <li><strong>HEALTHINFO 2022</strong> - 2nd edition, expanded international participation</li>
-            <li><strong>HEALTHINFO 2023</strong> - 3rd edition, hybrid format introduced</li>
-            <li><strong>HEALTHINFO IV 2026</strong> - 4th edition, AI for Healthcare focus</li>
-          </ul>
+          <h3 class="ab-hist-heading">Conference History</h3>
+          <div class="tl">
+            <div class="tl-item">
+              <div class="tl-dot"></div>
+              <div class="tl-box">
+                <span class="tl-year">2019</span>
+                <strong>HEALTHINFO I</strong>
+                <p>"Smart Hospital" - Foundations of healthcare digital transformation &amp; Electronic Health Records</p>
+              </div>
+            </div>
+            <div class="tl-item">
+              <div class="tl-dot"></div>
+              <div class="tl-box">
+                <span class="tl-year">2022</span>
+                <strong>HEALTHINFO II</strong>
+                <p>"Family Doctor Network" - Primary healthcare &amp; family medicine in the digital ecosystem</p>
+              </div>
+            </div>
+            <div class="tl-item">
+              <div class="tl-dot"></div>
+              <div class="tl-box">
+                <span class="tl-year">2023</span>
+                <strong>HEALTHINFO III</strong>
+                <p>"Smart Healthcare in the Digitalization Age" - IT &amp; AI applications in healthcare</p>
+              </div>
+            </div>
+            <div class="tl-item is-current">
+              <div class="tl-dot"></div>
+              <div class="tl-box">
+                <span class="tl-year">2026</span>
+                <strong>HEALTHINFO IV <span class="tl-badge">Current</span></strong>
+                <p>"AI for Healthcare" - Advanced AI across clinical, managerial, educational &amp; patient-facing domains</p>
+              </div>
+            </div>
+          </div>
         </div>
 
-        <div class="about-card">
-          <h3>HEALTHINFO IV Highlights</h3>
-          <ul class="overview-list">
-            <li><strong>Theme:</strong> AI for Healthcare</li>
-            <li><strong>Date:</strong> October 02–03, 2026</li>
-            <li><strong>Venue:</strong> University of Information Technology, VNU-HCM</li>
-            <li><strong>Format:</strong> Hybrid (Onsite + Online)</li>
-            <li><strong>Expected Participants:</strong> 150+</li>
-            <li><strong>Research Papers:</strong> 50+</li>
-            <li><strong>Keynote Speakers:</strong> 4</li>
-            <li><strong>Research Topics:</strong> 7</li>
+        <!-- Right: At a Glance -->
+        <div class="gc">
+          <div class="gc-head">
+            <span class="gc-badge">4th Edition</span>
+            <h3>At a Glance</h3>
+            <p>HEALTHINFO IV 2026</p>
+          </div>
+          <ul class="gc-rows">
+            <li>
+              <span class="gc-icon"></span>
+              <div class="gc-info"><span class="gc-label">Theme</span><span class="gc-value">AI for Healthcare</span></div>
+            </li>
+            <li>
+              <span class="gc-icon"></span>
+              <div class="gc-info"><span class="gc-label">Date</span><span class="gc-value">October 02&ndash;03, 2026</span></div>
+            </li>
+            <li>
+              <span class="gc-icon"></span>
+              <div class="gc-info"><span class="gc-label">Venue</span><span class="gc-value">UIT, VNU-HCM &middot; Ho Chi Minh City</span></div>
+            </li>
+            <li>
+              <span class="gc-icon"></span>
+              <div class="gc-info"><span class="gc-label">Format</span><span class="gc-value">Hybrid - Onsite &amp; Online</span></div>
+            </li>
+            <li>
+              <span class="gc-icon"></span>
+              <div class="gc-info"><span class="gc-label">Participants</span><span class="gc-value">150+ expected</span></div>
+            </li>
+            <li>
+              <span class="gc-icon"></span>
+              <div class="gc-info"><span class="gc-label">Research Papers</span><span class="gc-value">50+ accepted</span></div>
+            </li>
+            <li>
+              <span class="gc-icon"></span>
+              <div class="gc-info"><span class="gc-label">Keynote Speakers</span><span class="gc-value">4 international experts</span></div>
+            </li>
+            <li>
+              <span class="gc-icon"></span>
+              <div class="gc-info"><span class="gc-label">Research Tracks</span><span class="gc-value">7 thematic sessions</span></div>
+            </li>
           </ul>
+          <div class="gc-foot">
+            <a href="call-for-papers.html" class="gc-btn-primary">Submit Paper</a>
+            <a href="registration.html" class="gc-btn-outline">Register Now</a>
+          </div>
         </div>
+
       </div>
     </div>
   </section>
 
-  <!-- Conference Objectives -->
-  <section class="section" style="background: var(--light-color);">
+  <!-- ── Conference Objectives ── -->
+  <section class="section bg-light">
     <div class="container">
       <div class="section-title">
         <h2>Conference Objectives</h2>
         <p>HEALTHINFO IV aims to achieve the following key objectives</p>
       </div>
-
-      <div class="topics-grid">
-        <div class="topic-card">
-          <h3>🤝 Connect Researchers</h3>
+      <div class="feat-grid">
+        <div class="feat-card">
+          <h3>Connect Researchers</h3>
           <p>Bring together researchers and academics working on health informatics and AI in healthcare.</p>
         </div>
-
-        <div class="topic-card">
-          <h3>🏥 Connect Healthcare Professionals</h3>
+        <div class="feat-card">
+          <h3>Engage Healthcare Professionals</h3>
           <p>Provide a platform for physicians, nurses, and healthcare managers to share practical experiences.</p>
         </div>
-
-        <div class="topic-card">
-          <h3>🏢 Connect Organizations</h3>
+        <div class="feat-card">
+          <h3>Bridge Organizations</h3>
           <p>Facilitate networking between hospitals, universities, and healthcare IT companies.</p>
         </div>
-
-        <div class="topic-card">
-          <h3>📚 Share Research Results</h3>
+        <div class="feat-card">
+          <h3>Share Research</h3>
           <p>Publish and present cutting-edge research in health informatics and medical AI.</p>
         </div>
-
-        <div class="topic-card">
-          <h3>💡 Share Practical Applications</h3>
-          <p>Showcase real-world implementations and case studies from healthcare organizations.</p>
+        <div class="feat-card">
+          <h3>Showcase Applications</h3>
+          <p>Highlight real-world implementations and case studies from healthcare organizations.</p>
         </div>
-
-        <div class="topic-card">
-          <h3>🚀 Promote Innovation</h3>
-          <p>Encourage discussion and collaboration on innovative solutions for healthcare challenges.</p>
+        <div class="feat-card">
+          <h3>Promote Innovation</h3>
+          <p>Encourage collaboration on innovative solutions for current healthcare challenges.</p>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Organizers -->
+  <!-- ── Organizers & Partners ── -->
   <section class="section">
     <div class="container">
       <div class="section-title">
-        <h2>Organizers</h2>
+        <h2>Organizers &amp; Partners</h2>
+        <p>HEALTHINFO IV is supported by leading institutions across Vietnam and the Asia-Pacific region</p>
       </div>
-
-      <div style="max-width: 900px; margin: 0 auto;">
-        <div class="about-card" style="margin-bottom: 24px;">
-          <h3>Co-Chairs</h3>
-          <ul class="overview-list">
-            <li>Hội Khoa học Kinh tế Y tế Việt Nam (Vietnamese Society for Health Economics)</li>
-            <li>Trường Đại học Công nghệ Thông tin (University of Information Technology)</li>
-          </ul>
+      <div class="about-org-grid">
+        <div class="org-card is-main">
+          <div class="org-role">Co-organizer</div>
+          <strong>Vietnamese Society for Health Economics (VHEA)</strong>
+          <span>Hội Khoa học Kinh tế Y tế Việt Nam</span>
         </div>
-
-        <div class="about-card">
-          <h3>Partner Organizations</h3>
-          <ul class="overview-list">
-            <li>Trường Đại học Khoa học Sức khỏe (University of Health Sciences)</li>
-            <li>Bệnh viện Nguyễn Tri Phương (Nguyen Tri Phuong Hospital)</li>
-            <li>AHLA (Asia Healthcare Leaders Alliance)</li>
-            <li>APAMI (Asia Pacific Association for Medical Informatics)</li>
-            <li>TAMI (Taiwan Association for Medical Informatics)</li>
-          </ul>
+        <div class="org-card is-main">
+          <div class="org-role">Co-organizer</div>
+          <strong>University of Information Technology (UIT), VNU-HCM</strong>
+          <span>Trường Đại học Công nghệ Thông tin</span>
+        </div>
+        <div class="org-card">
+          <div class="org-role">Partner</div>
+          <strong>University of Health Sciences (UHS), VNU-HCM</strong>
+          <span>Trường Đại học Khoa học Sức khỏe</span>
+        </div>
+        <div class="org-card">
+          <div class="org-role">Partner</div>
+          <strong>Nguyen Tri Phuong Hospital</strong>
+          <span>Bệnh viện Nguyễn Tri Phương</span>
+        </div>
+        <div class="org-card">
+          <div class="org-role">International Partner</div>
+          <strong>Asia-Pacific Association of Medical Informatics (APAMI)</strong>
+        </div>
+        <div class="org-card">
+          <div class="org-role">International Partner</div>
+          <strong>Asian Health Literacy Association (AHLA)</strong>
+        </div>
+        <div class="org-card">
+          <div class="org-role">International Partner</div>
+          <strong>Taiwan Association for Medical Informatics (TAMI)</strong>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Why Attend -->
-  <section class="section" style="background: var(--light-color);">
+  <!-- ── Why Attend ── -->
+  <section class="section bg-light">
     <div class="container">
       <div class="section-title">
         <h2>Why Attend HEALTHINFO IV?</h2>
       </div>
-
-      <div class="topics-grid">
-        <div class="topic-card">
-          <h3>🌍 International Exposure</h3>
-          <p>Meet researchers and professionals from 30+ countries working on AI in healthcare.</p>
+      <div class="feat-grid">
+        <div class="feat-card">
+          <h3>International Exposure</h3>
+          <p>Meet researchers and professionals from across Asia-Pacific and beyond working on AI in healthcare.</p>
         </div>
-
-        <div class="topic-card">
-          <h3>📝 Publish Your Work</h3>
-          <p>Publish your research in a peer-reviewed conference with international recognition.</p>
+        <div class="feat-card">
+          <h3>Publish Your Work</h3>
+          <p>Present your research at a peer-reviewed international conference with global reach.</p>
         </div>
-
-        <div class="topic-card">
-          <h3>💬 Network & Collaborate</h3>
-          <p>Establish connections that may lead to future research collaborations.</p>
+        <div class="feat-card">
+          <h3>Network &amp; Collaborate</h3>
+          <p>Build connections that lead to future research partnerships and joint projects.</p>
         </div>
-
-        <div class="topic-card">
-          <h3>🎓 Learn Latest Trends</h3>
-          <p>Discover the latest developments in AI, machine learning, and digital health.</p>
+        <div class="feat-card">
+          <h3>Learn Latest Trends</h3>
+          <p>Discover the latest advances in AI, machine learning, and digital health systems.</p>
         </div>
-
-        <div class="topic-card">
-          <h3>🎤 Keynote Speakers</h3>
-          <p>Learn from world-renowned experts in health informatics and artificial intelligence.</p>
+        <div class="feat-card">
+          <h3>World-Class Keynotes</h3>
+          <p>Learn from internationally renowned experts in health informatics and artificial intelligence.</p>
         </div>
-
-        <div class="topic-card">
-          <h3>🏆 Career Opportunities</h3>
-          <p>Connect with employers and explore career opportunities in health IT.</p>
+        <div class="feat-card">
+          <h3>Recognition</h3>
+          <p>Compete for Best Paper Awards and gain recognition within the global health informatics community.</p>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- CTA -->
+  <!-- ── CTA ── -->
   <section class="section cta-section">
     <div class="container">
       <div class="cta-content">
         <h2>Ready to Join HEALTHINFO IV?</h2>
         <p>Submit your research or register to attend the conference.</p>
         <div class="hero-actions">
-          <a href="call-for-papers.html" class="btn primary-btn">📝 Call for Papers</a>
+          <a href="call-for-papers.html" class="btn primary-btn">Call for Papers</a>
           <a href="registration.html" class="btn secondary-btn">Register Now</a>
         </div>
       </div>
@@ -231,7 +296,6 @@
           <h4>HEALTHINFO IV</h4>
           <p>4th International Health Informatics Conference</p>
         </div>
-
         <div class="footer-col">
           <h4>Quick Links</h4>
           <ul>
@@ -241,17 +305,15 @@
             <li><a href="contact.html">Contact</a></li>
           </ul>
         </div>
-
         <div class="footer-col">
           <h4>Conference Info</h4>
           <ul>
             <li><a href="important-dates.html">Important Dates</a></li>
             <li><a href="registration.html">Registration</a></li>
-            <li><a href="venue.html">Venue & Travel</a></li>
+            <li><a href="venue.html">Venue &amp; Travel</a></li>
             <li><a href="committees.html">Committees</a></li>
           </ul>
         </div>
-
         <div class="footer-col">
           <h4>Contact Us</h4>
           <p>Email: info@healthinfo-iv.com</p>
@@ -259,7 +321,6 @@
           <p>University of Information Technology, VNU-HCM</p>
         </div>
       </div>
-
       <div class="footer-bottom">
         <p>&copy; 2026 HEALTHINFO IV. All rights reserved.</p>
       </div>

@@ -4,23 +4,22 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Contact - HEALTHINFO IV 2026</title>
-  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/style.css">  
+  <link rel="icon" type="image/png" href="public/img/favicon.png">
 </head>
 <body>
 
-<!-- Header -->
+  <!-- Header -->
   <header class="site-header" id="site-header">
     <div class="container header-wrapper">
       <a href="index.html" class="logo">
         <img src="public/img/logo-healthinfo.png" alt="HEALTHINFO IV Logo">
-        
       </a>
-
       <nav class="main-nav" id="main-nav">
         <ul>
-          <li><a href="index.html" class="nav-active">Home</a></li>
+          <li><a href="index.html">Home</a></li>
           <li class="has-dropdown">
-            <a href="#" class="dropdown-toggle">Conference <span class="arrow">▾</span></a>
+            <a href="#" class="dropdown-toggle">Conference <span class="arrow">&#9662;</span></a>
             <ul class="dropdown">
               <li><a href="about.html">About</a></li>
               <li><a href="committees.html">Committees</a></li>
@@ -28,7 +27,7 @@
             </ul>
           </li>
           <li class="has-dropdown">
-            <a href="#" class="dropdown-toggle">Authors <span class="arrow">▾</span></a>
+            <a href="#" class="dropdown-toggle">Authors <span class="arrow">&#9662;</span></a>
             <ul class="dropdown">
               <li><a href="call-for-papers.html">Call for Papers</a></li>
               <li><a href="important-dates.html">Important Dates</a></li>
@@ -37,10 +36,9 @@
           <li><a href="program.html">Program</a></li>
           <li><a href="registration.html">Registration</a></li>
           <li><a href="venue.html">Venue</a></li>
-          <li><a href="contact.html">Contact</a></li>
+          <li><a href="contact.html" class="nav-active">Contact</a></li>
         </ul>
       </nav>
-
       <div class="header-right">
         <a href="call-for-papers.html" class="btn nav-cta-btn">Submit Paper</a>
         <button class="menu-toggle" id="menu-toggle" aria-label="Toggle menu">
@@ -50,96 +48,117 @@
     </div>
   </header>
 
-  <!-- Page Title -->
-  <section class="hero" style="min-height: 300px; background: linear-gradient(135deg, #005b96 0%, #00a896 100%);">
+  <!-- Hero -->
+  <section class="hero" style="min-height:300px; background:linear-gradient(135deg,#005b96 0%,#00a896 100%);">
     <div class="container hero-content">
       <h1>Contact Us</h1>
-      <p>Get in touch with the HEALTHINFO IV team</p>
+      <p class="page-hero-sub">Get in touch with the HEALTHINFO IV organizing team</p>
     </div>
   </section>
 
-  <!-- Contact Information -->
+  <!-- Contact Info + Quick Links -->
   <section class="section">
     <div class="container">
       <div class="section-title">
         <h2>Conference Secretariat</h2>
+        <p>Reach out to us for any inquiries about the conference</p>
       </div>
 
       <div class="two-columns">
+        <!-- Left: contact details -->
         <div>
-          <h3>📍 Physical Address</h3>
-          <p>University of Information Technology<br>Vietnam National University - Ho Chi Minh City<br>01 Han Thuyen Street, Quarter 34, Linh Xuan Ward, Ho Chi Minh City, Vietnam</p>
-
-          <h3 style="margin-top: 32px;">📞 Phone</h3>
-          <p><a href="tel:+84287352656" style="color: var(--primary-color); font-weight: bold;">+84 (28) 3725-2656</a><br>Office Hours: Mon-Fri, 08:00-17:00 (Vietnam Time)</p>
-
-          <h3 style="margin-top: 32px;">📧 Email</h3>
-          <p>
-            <strong>General Inquiries:</strong><br>
-            <a href="mailto:info@healthinfo-iv.com">info@healthinfo-iv.com</a>
-          </p>
-          <p style="margin-top: 12px;">
-            <strong>Paper Submission:</strong><br>
-            <a href="mailto:submission@healthinfo-iv.com">submission@healthinfo-iv.com</a>
-          </p>
-          <p style="margin-top: 12px;">
-            <strong>Registration:</strong><br>
-            <a href="mailto:registration@healthinfo-iv.com">registration@healthinfo-iv.com</a>
-          </p>
-          <p style="margin-top: 12px;">
-            <strong>Visa Assistance:</strong><br>
-            <a href="mailto:visa@healthinfo-iv.com">visa@healthinfo-iv.com</a>
-          </p>
-        </div>
-
-        <div class="about-card">
-          <h3>🌐 Follow Us</h3>
-          <p>Stay connected with HEALTHINFO IV on social media for the latest updates and announcements.</p>
-
-          <div style="display: flex; gap: 12px; margin-top: 20px; flex-wrap: wrap;">
-            <a href="#" style="display: inline-block; padding: 12px 20px; background: var(--primary-color); color: white; border-radius: 6px; text-decoration: none; font-weight: 600;">📘 Facebook</a>
-            <a href="#" style="display: inline-block; padding: 12px 20px; background: var(--primary-color); color: white; border-radius: 6px; text-decoration: none; font-weight: 600;">🔗 LinkedIn</a>
-            <a href="#" style="display: inline-block; padding: 12px 20px; background: var(--primary-color); color: white; border-radius: 6px; text-decoration: none; font-weight: 600;">📹 YouTube</a>
+          <div class="about-card" style="margin-bottom:20px;">
+            <h3>Address</h3>
+            <p>University of Information Technology (UIT)<br>
+            Vietnam National University Ho Chi Minh City (VNU-HCM)<br>
+            Quarter 34, Linh Xuan Ward<br>
+            Ho Chi Minh City, Vietnam</p>
           </div>
 
-          <h3 style="margin-top: 32px;">💬 Response Time</h3>
-          <p style="color: var(--text-light);">We typically respond to inquiries within 24 hours during business days.</p>
+          <div class="about-card" style="margin-bottom:20px;">
+            <h3>Phone</h3>
+            <p><a href="tel:+842837252656" style="color:var(--primary-color); font-weight:600;">+84 (28) 3725-2656</a></p>
+            <p>Office Hours: Mon&ndash;Fri, 08:00&ndash;17:00 (Vietnam Time, GMT+7)</p>
+          </div>
 
-          <h3 style="margin-top: 20px;">🏢 Quick Links</h3>
+          <div class="about-card">
+            <h3>Email</h3>
+            <ul class="overview-list">
+              <li>
+                <strong>General Inquiries</strong><br>
+                <a href="mailto:info@healthinfo-iv.com">info@healthinfo-iv.com</a>
+              </li>
+              <li>
+                <strong>Paper Submission</strong><br>
+                <a href="mailto:submission@healthinfo-iv.com">submission@healthinfo-iv.com</a>
+              </li>
+              <li>
+                <strong>Registration</strong><br>
+                <a href="mailto:registration@healthinfo-iv.com">registration@healthinfo-iv.com</a>
+              </li>
+              <li>
+                <strong>Visa Assistance</strong><br>
+                <a href="mailto:visa@healthinfo-iv.com">visa@healthinfo-iv.com</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Right: quick links + response info -->
+        <div class="about-card">
+          <h3>Quick Links</h3>
           <ul class="overview-list">
-            <li><a href="registration.html">Registration</a></li>
-            <li><a href="call-for-papers.html">Submit Paper</a></li>
+            <li><a href="registration.html">Register for the Conference</a></li>
+            <li><a href="call-for-papers.html">Submit a Paper</a></li>
             <li><a href="important-dates.html">Important Dates</a></li>
             <li><a href="program.html">Conference Program</a></li>
+            <li><a href="venue.html">Venue &amp; Travel</a></li>
+            <li><a href="committees.html">Organizing Committees</a></li>
           </ul>
+
+          <div style="margin-top:28px; padding:16px; background:linear-gradient(135deg,#e8f4fd,#e0f7f4); border-radius:10px; border-left:3px solid var(--secondary-color);">
+            <p style="margin:0; font-size:0.9rem; color:var(--dark-color);"><strong>Response Time</strong><br>We typically respond to inquiries within 24 hours during business days.</p>
+          </div>
+
+          <div style="margin-top:20px; padding:16px; background:var(--gray-100); border-radius:10px;">
+            <p style="margin:0 0 12px; font-size:0.9rem; font-weight:600; color:var(--dark-color);">Follow Us</p>
+            <div style="display:flex; gap:10px; flex-wrap:wrap;">
+              <a href="#" class="btn nav-cta-btn" style="font-size:0.85rem; padding:8px 16px;">Facebook</a>
+              <a href="#" class="btn nav-cta-btn" style="font-size:0.85rem; padding:8px 16px;">LinkedIn</a>
+              <a href="#" class="btn nav-cta-btn" style="font-size:0.85rem; padding:8px 16px;">YouTube</a>
+            </div>
+          </div>
         </div>
       </div>
     </div>
   </section>
 
   <!-- Contact Form -->
-  <section class="section" style="background: var(--light-color);">
+  <section class="section" style="background:var(--light-color);">
     <div class="container">
       <div class="section-title">
         <h2>Send Us a Message</h2>
-        <p>Fill out the form below and we'll get back to you as soon as possible</p>
+        <p>Fill out the form below and we will get back to you as soon as possible</p>
       </div>
 
-      <div style="max-width: 700px; margin: 0 auto;">
-        <form id="contactForm" style="background: white; padding: 40px; border-radius: 16px; box-shadow: 0 4px 12px rgba(16, 42, 67, 0.08);">
-          <div style="margin-bottom: 20px;">
-            <label for="name" style="display: block; color: var(--dark-color); font-weight: 600; margin-bottom: 8px;">Full Name *</label>
-            <input type="text" id="name" name="name" required style="width: 100%; padding: 12px; border: 1px solid var(--border-color); border-radius: 8px; font-size: 1rem; font-family: inherit;">
+      <div style="max-width:700px; margin:0 auto;">
+        <form id="contactForm" class="about-card">
+          <div style="margin-bottom:20px;">
+            <label for="name" style="display:block; color:var(--dark-color); font-weight:600; margin-bottom:8px;">Full Name <span style="color:#ef4444;">*</span></label>
+            <input type="text" id="name" name="name" required placeholder="Your full name"
+              style="width:100%; padding:12px 14px; border:1px solid var(--border-color); border-radius:8px; font-size:0.95rem; font-family:inherit; color:var(--dark-color); transition:border-color 0.2s;">
           </div>
 
-          <div style="margin-bottom: 20px;">
-            <label for="email" style="display: block; color: var(--dark-color); font-weight: 600; margin-bottom: 8px;">Email Address *</label>
-            <input type="email" id="email" name="email" required style="width: 100%; padding: 12px; border: 1px solid var(--border-color); border-radius: 8px; font-size: 1rem; font-family: inherit;">
+          <div style="margin-bottom:20px;">
+            <label for="email" style="display:block; color:var(--dark-color); font-weight:600; margin-bottom:8px;">Email Address <span style="color:#ef4444;">*</span></label>
+            <input type="email" id="email" name="email" required placeholder="your@email.com"
+              style="width:100%; padding:12px 14px; border:1px solid var(--border-color); border-radius:8px; font-size:0.95rem; font-family:inherit; color:var(--dark-color); transition:border-color 0.2s;">
           </div>
 
-          <div style="margin-bottom: 20px;">
-            <label for="subject" style="display: block; color: var(--dark-color); font-weight: 600; margin-bottom: 8px;">Subject *</label>
-            <select id="subject" name="subject" required style="width: 100%; padding: 12px; border: 1px solid var(--border-color); border-radius: 8px; font-size: 1rem; font-family: inherit;">
+          <div style="margin-bottom:20px;">
+            <label for="subject" style="display:block; color:var(--dark-color); font-weight:600; margin-bottom:8px;">Subject <span style="color:#ef4444;">*</span></label>
+            <select id="subject" name="subject" required
+              style="width:100%; padding:12px 14px; border:1px solid var(--border-color); border-radius:8px; font-size:0.95rem; font-family:inherit; color:var(--dark-color);">
               <option value="">Select a subject</option>
               <option value="general">General Inquiry</option>
               <option value="registration">Registration Question</option>
@@ -151,53 +170,54 @@
             </select>
           </div>
 
-          <div style="margin-bottom: 20px;">
-            <label for="message" style="display: block; color: var(--dark-color); font-weight: 600; margin-bottom: 8px;">Message *</label>
-            <textarea id="message" name="message" required rows="6" style="width: 100%; padding: 12px; border: 1px solid var(--border-color); border-radius: 8px; font-size: 1rem; font-family: inherit; resize: vertical;"></textarea>
+          <div style="margin-bottom:24px;">
+            <label for="message" style="display:block; color:var(--dark-color); font-weight:600; margin-bottom:8px;">Message <span style="color:#ef4444;">*</span></label>
+            <textarea id="message" name="message" required rows="6" placeholder="Your message..."
+              style="width:100%; padding:12px 14px; border:1px solid var(--border-color); border-radius:8px; font-size:0.95rem; font-family:inherit; color:var(--dark-color); resize:vertical;"></textarea>
           </div>
 
-          <button type="submit" class="btn primary-btn" style="width: 100%; padding: 14px; font-size: 1rem;">Send Message</button>
+          <button type="submit" class="btn primary-btn" style="width:100%;">Send Message</button>
         </form>
       </div>
     </div>
   </section>
 
-  <!-- FAQ Section -->
+  <!-- FAQ -->
   <section class="section">
     <div class="container">
       <div class="section-title">
         <h2>Frequently Asked Questions</h2>
       </div>
 
-      <div style="max-width: 800px; margin: 0 auto;">
-        <div class="about-card" style="margin-bottom: 24px;">
+      <div style="max-width:800px; margin:0 auto; display:grid; gap:16px;">
+        <div class="about-card">
           <h3>When is the paper submission deadline?</h3>
           <p>The paper submission deadline is <strong>July 15, 2026</strong>. Late submissions will not be accepted.</p>
         </div>
 
-        <div class="about-card" style="margin-bottom: 24px;">
+        <div class="about-card">
           <h3>Can I present my paper remotely?</h3>
-          <p>Yes, we offer online participation options. However, at least one author should be present for the live Q&A session if possible.</p>
-        </div>
-
-        <div class="about-card" style="margin-bottom: 24px;">
-          <h3>What is the registration fee for students?</h3>
-          <p>Student registration fees are: Early bird ($200), Regular ($250), and On-site ($300). Valid student ID is required.</p>
-        </div>
-
-        <div class="about-card" style="margin-bottom: 24px;">
-          <h3>Do I need a visa to enter Vietnam?</h3>
-          <p>It depends on your nationality. Check the Vietnamese Immigration website for specific requirements. We can provide an invitation letter if needed.</p>
-        </div>
-
-        <div class="about-card" style="margin-bottom: 24px;">
-          <h3>Is accommodation provided during the conference?</h3>
-          <p>Accommodation is not included with conference registration, but we offer discounted rates at partner hotels. Contact us for details.</p>
+          <p>Yes, online participation options are available. However, we encourage at least one author to be present onsite for the live Q&amp;A session.</p>
         </div>
 
         <div class="about-card">
-          <h3>Can I download the conference program before the event?</h3>
-          <p>Yes, the final program will be published on our website by September 15, 2026, and will be available for registered participants.</p>
+          <h3>What is the registration fee for students?</h3>
+          <p>Student registration fees are offered at a discounted rate. Please refer to the <a href="registration.html" style="color:var(--secondary-color); font-weight:600;">Registration page</a> for full details.</p>
+        </div>
+
+        <div class="about-card">
+          <h3>Do I need a visa to enter Vietnam?</h3>
+          <p>Visa requirements vary by nationality. Please consult the official Vietnam Immigration Portal or your nearest Vietnamese Embassy. We can provide an official invitation letter upon request to support your visa application.</p>
+        </div>
+
+        <div class="about-card">
+          <h3>Is accommodation provided during the conference?</h3>
+          <p>Accommodation is not included with conference registration. Please visit the <a href="venue.html" style="color:var(--secondary-color); font-weight:600;">Venue &amp; Travel page</a> for recommended hotels and estimated rates near the venue.</p>
+        </div>
+
+        <div class="about-card">
+          <h3>When will the final conference program be published?</h3>
+          <p>The final program will be published on this website by September 15, 2026, and will be available for all registered participants.</p>
         </div>
       </div>
     </div>
@@ -211,7 +231,6 @@
           <h4>HEALTHINFO IV</h4>
           <p>4th International Health Informatics Conference</p>
         </div>
-
         <div class="footer-col">
           <h4>Quick Links</h4>
           <ul>
@@ -221,17 +240,15 @@
             <li><a href="contact.html">Contact</a></li>
           </ul>
         </div>
-
         <div class="footer-col">
           <h4>Conference Info</h4>
           <ul>
             <li><a href="important-dates.html">Important Dates</a></li>
             <li><a href="registration.html">Registration</a></li>
-            <li><a href="venue.html">Venue & Travel</a></li>
+            <li><a href="venue.html">Venue &amp; Travel</a></li>
             <li><a href="committees.html">Committees</a></li>
           </ul>
         </div>
-
         <div class="footer-col">
           <h4>Contact Us</h4>
           <p>Email: info@healthinfo-iv.com</p>
@@ -239,7 +256,6 @@
           <p>University of Information Technology, VNU-HCM</p>
         </div>
       </div>
-
       <div class="footer-bottom">
         <p>&copy; 2026 HEALTHINFO IV. All rights reserved.</p>
       </div>
